@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,13 @@
   },
   "homepage": "https://github.com/AvaruusAnkka/GraphSql-backend#readme",
   "dependencies": {
+    "apollo-server": "^3.6.3",
     "apollo-server-express": "^3.6.3",
     "express": "^4.17.3",
     "graphql": "^16.3.0",
-    "mongoose": "^6.2.4",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
