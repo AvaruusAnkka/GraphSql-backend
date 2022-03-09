@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/AvaruusAnkka/GraphSql-backend#readme",
   "dependencies": {
+    "@prisma/client": "^3.10.0",
     "apollo-server-express": "^3.6.3",
     "express": "^4.17.3",
     "graphql": "^16.3.0",
     "mongoose": "^6.2.4",
     "nodemon": "^2.0.15",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "prisma": "^3.10.0"
   }
 }
